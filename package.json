@@ -1,0 +1,15 @@
+{
+  "name": "bnt-archive-parser",
+  "version": "1.0.0",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "yargs": "^14.2.0"
+  }
+}
