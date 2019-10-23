@@ -1,10 +1,10 @@
 // TODO fetch show info
 // TODO fetch all pages from archive
 // TODO prepare all the episodes as json
-const request = require( 'request-promise-native' );
-const cheerio = require( 'cheerio' );
+import request from 'request-promise-native';
+import cheerio from 'cheerio';
 
-const ArgumentParser = require( 'argparse' ).ArgumentParser;
+import { ArgumentParser } from 'argparse';
 
 const URLs = {
 	showInfo: 'http://archive.bnt.bg/bg/productions/about/{ID}/',

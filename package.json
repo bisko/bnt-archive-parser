@@ -1,9 +1,10 @@
 {
   "name": "bnt-archive-parser",
   "version": "1.0.0",
-  "main": "start.js",
+  "main": "src/start.js",
   "scripts": {
-    "start": "node start.js"
+    "start": "node build/start.js",
+    "build": "babel src -d build"
   },
   "license": "GPL-2.0-or-later",
   "dependencies": {
@@ -12,5 +13,10 @@
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
     "yargs": "^14.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3"
   }
 }
