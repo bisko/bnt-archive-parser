@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/start.js",
   "scripts": {
-    "start": "node build/start.js",
+    "start": "yarn build && node build/start.js",
     "build": "babel src -d build"
   },
   "license": "GPL-2.0-or-later",
