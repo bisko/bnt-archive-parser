@@ -3,5 +3,5 @@ This project parses the BNT (Bulgarian National Television)'s archive and genera
 
 # Development
 ```
-yarn build && yarn start -si <show_id>
+yarn start -si <show_id>
 ```
